@@ -1,4 +1,10 @@
-{
-  "username": "admin",
-  "password": "210b3e08e5d1b85482114a51dea9108f" 
-}
+[
+  {
+    "username": "admin",
+    "password": "12345",
+    "nombre": "Administrador",
+    "email": "admin@fastcontrol.com",
+    "role": "admin",
+    "last_login": ""
+  }
+]

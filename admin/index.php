@@ -18,18 +18,31 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     // Cargar usuarios
     $usuarios = DataLoader::load('usuarios');
+    $usuario_encontrado = false;
+
     
-    if ($usuarios && isset($usuarios['username']) && $usuarios['username'] === $username) {
-        // Verificar contraseña (MD5 no es seguro, pero para esta demo es suficiente)
-        if (md5($password) === $usuarios['password']) {
-            $_SESSION['admin_logged_in'] = true;
-            $_SESSION['admin_username'] = $username;
-            header('Location: dashboard.php');
-            exit;
-        } else {
-            $error = 'Contraseña incorrecta';
+    if ($usuarios && is_array($usuarios)) {
+        foreach ($usuarios as $usuario) {
+            if (isset($usuario['username']) && $usuario['username'] === $username) {
+                $usuario_encontrado = true;
+                // Verificar contraseña con password_verify para formato bcrypt
+                // if (password_verify($password, $usuario['password'])) {
+                if ($password === $usuario['password']) { // Temporalmente usar comparación directa
+
+                    $_SESSION['admin_logged_in'] = true;
+                    $_SESSION['admin_username'] = $username;
+                    $_SESSION['admin_nombre'] = $usuario['nombre'] ?? $username;
+                    header('Location: dashboard.php');
+                    exit;
+                } else {
+                    $error = 'Contraseña incorrecta';
+                }
+                break;
+            }
         }
-    } else {
+    }
+    
+    if (!$usuario_encontrado) {
         $error = 'Usuario no encontrado';
     }
 }
