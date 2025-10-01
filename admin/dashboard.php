@@ -74,7 +74,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'logout') {
         </div>
         
         <!-- Sections -->
-        <div class="grid md:grid-cols-2 gap-6 mb-8">
+        <div class="grid md:grid-cols-3 gap-6 mb-8">
             <div class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div class="flex items-center mb-4">
                     <div class="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center mr-4">
@@ -87,7 +87,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'logout') {
                     Editar Datos
                 </a>
             </div>
-            
+
             <div class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div class="flex items-center mb-4">
                     <div class="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center mr-4">
@@ -98,6 +98,19 @@ if (isset($_GET['action']) && $_GET['action'] === 'logout') {
                 <p class="text-gray-600 mb-4">Administra los servicios que ofreces, descripciones, precios y más.</p>
                 <a href="servicios.php" class="inline-block bg-primary hover:bg-primary-dark text-white font-medium py-2 px-4 rounded transition-colors">
                     Gestionar Servicios
+                </a>
+            </div>
+
+            <div class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition-shadow">
+                <div class="flex items-center mb-4">
+                    <div class="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center mr-4">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h2 class="text-xl font-bold">Contactos Recibidos</h2>
+                </div>
+                <p class="text-gray-600 mb-4">Consulta los mensajes enviados desde el formulario de contacto.</p>
+                <a href="contactos.php" class="inline-block bg-primary hover:bg-primary-dark text-white font-medium py-2 px-4 rounded transition-colors">
+                    Ver Contactos
                 </a>
             </div>
         </div>

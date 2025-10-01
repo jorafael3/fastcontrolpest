@@ -1,8 +1,8 @@
 <?php
-// Cargar configuraciones
-$empresa = include 'config/empresa.php';
-$servicios = include 'config/servicios.php';
-$links = include 'config/links.php';
+require_once 'config/data_loader.php';
+$empresa = empresa();
+$servicios = servicios();
+$links = links();
 
 // Incluir header
 include 'includes/header.php';

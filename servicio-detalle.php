@@ -1,15 +1,15 @@
 <?php
-// Cargar configuraciones
-$empresa = require 'config/empresa.php';
-$servicios = require 'config/servicios.php';
-$links = require 'config/links.php';
+require_once 'config/data_loader.php';
+$empresa = empresa();
+$servicios = servicios();
+$links = links();
 require 'includes/header.php';
 
 // Obtener el servicio solicitado
 $servicio_id = $_GET['servicio'] ?? '';
 
 $servicio = null;
-if ($servicio_id && isset($servicios[$servicio_id])) {
+if ($servicio_id !== '' && isset($servicios[$servicio_id])) {
     $servicio = $servicios[$servicio_id];
 }
 

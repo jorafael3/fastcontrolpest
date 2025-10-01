@@ -1,194 +1,218 @@
 {
-  "murcielagos": {
-    "id": "murcielagos",
-    "nombre": "Control de Murciélagos",
-    "descripcion_corta": "Eliminación segura y humana de murciélagos en hogares y empresas.",
-    "descripcion_larga": "Servicio especializado para el control y eliminación de murciélagos utilizando métodos seguros y humanos. Evaluamos la situación, sellamos puntos de entrada y realizamos la exclusión definitiva.",
-    "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.30 PM (1).jpeg",
-    "proceso": [
-      "Inspección detallada del área afectada",
-      "Identificación de puntos de entrada y anidación",
-      "Aplicación de métodos de exclusión humanos",
-      "Sellado de accesos y prevención",
-      "Seguimiento post-tratamiento"
-    ],
-    "beneficios": [
-      "Eliminación definitiva del problema",
-      "Métodos seguros y humanos",
-      "Prevención de reinfestaciones",
-      "Protección de la salud familiar",
-      "Garantía de servicio"
-    ],
-    "precio_desde": 150,
-    "tiempo_servicio": "2-4 horas",
-    "garantia": "6 meses"
-  },
-  "termitas": {
-    "id": "termitas",
-    "nombre": "Control de Termitas Subterráneas",
-    "descripcion_corta": "Eliminación efectiva de termitas subterráneas que dañan estructuras de madera.",
-    "descripcion_larga": "Tratamiento especializado contra termitas subterráneas que atacan las estructuras de madera. Utilizamos sistemas de cebos y tratamientos químicos profesionales para eliminar colonias completas.",
-    "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.30 PM (2).jpeg",
-    "proceso": [
-      "Inspección estructural completa",
-      "Identificación de focos de infestación",
-      "Instalación de sistema de cebos",
-      "Aplicación de tratamientos químicos",
-      "Monitoreo y mantenimiento periódico"
-    ],
-    "beneficios": [
-      "Protección de estructuras de madera",
-      "Eliminación de colonias completas",
-      "Prevención a largo plazo",
-      "Tratamientos eco-amigables",
-      "Monitoreo continuo"
-    ],
-    "precio_desde": 200,
-    "tiempo_servicio": "3-6 horas",
-    "garantia": "12 meses"
-  },
-  "cucarachas": {
-    "id": "cucarachas",
-    "nombre": "Control de Cucarachas",
-    "descripcion_corta": "Eliminación total de cucarachas en hogares, restaurantes y empresas.",
-    "descripcion_larga": "Servicio integral para el control de cucarachas en todo tipo de espacios. Utilizamos geles, insecticidas profesionales y métodos de exclusión para garantizar la eliminación total.",
-    "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.31 PM (1).jpeg",
-    "proceso": [
-      "Evaluación e identificación de especies",
-      "Localización de refugios y rutas",
-      "Aplicación de geles y cebos especializados",
-      "Tratamiento con insecticidas profesionales",
-      "Sellado de grietas y puntos de entrada"
-    ],
-    "beneficios": [
-      "Eliminación rápida y efectiva",
-      "Productos seguros para la familia",
-      "Prevención de enfermedades",
-      "Tratamiento de larga duración",
-      "Asesoramiento preventivo"
-    ],
-    "precio_desde": 80,
-    "tiempo_servicio": "1-2 horas",
-    "garantia": "3 meses"
-  },
-  "serpientes": {
-    "id": "serpientes",
-    "nombre": "Control de Serpientes",
-    "descripcion_corta": "Captura y reubicación segura de serpientes venenosas y no venenosas.",
-    "descripcion_larga": "Servicio especializado para la captura y reubicación de serpientes. Nuestros técnicos certificados manejan tanto especies venenosas como no venenosas con total seguridad.",
-    "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.31 PM (2).jpeg",
-    "proceso": [
-      "Evaluación de riesgo y especies",
-      "Captura segura con equipo especializado",
-      "Identificación de la especie",
-      "Reubicación en hábitat natural",
-      "Recomendaciones preventivas"
-    ],
-    "beneficios": [
-      "Captura segura y humana",
-      "Personal altamente capacitado",
-      "Servicio de emergencia 24/7",
-      "Reubicación responsable",
-      "Asesoramiento preventivo"
-    ],
-    "precio_desde": 120,
-    "tiempo_servicio": "1-3 horas",
-    "garantia": "Servicio único"
-  },
-  "ratones": {
-    "id": "ratones",
-    "nombre": "Control de Ratones",
-    "descripcion_corta": "Eliminación efectiva de ratones y roedores en hogares y empresas.",
-    "descripcion_larga": "Programa integral de control de roedores que incluye trampas, cebos y sellado de accesos. Ideal para hogares, restaurantes, bodegas y empresas.",
-    "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.31 PM (3).jpeg",
-    "proceso": [
-      "Inspección y mapeo de actividad",
-      "Colocación estratégica de trampas",
-      "Aplicación de cebos rodenticidas",
-      "Sellado de puntos de entrada",
-      "Monitoreo y mantenimiento"
-    ],
-    "beneficios": [
-      "Control efectivo y duradero",
-      "Métodos seguros para mascotas",
-      "Prevención de enfermedades",
-      "Protección de alimentos",
-      "Seguimiento profesional"
-    ],
-    "precio_desde": 100,
-    "tiempo_servicio": "2-3 horas",
-    "garantia": "4 meses"
-  },
-  "desinfeccion": {
-    "id": "desinfeccion",
-    "nombre": "Desinfección de Espacios",
-    "descripcion_corta": "Desinfección profesional contra virus, bacterias y hongos.",
-    "descripcion_larga": "Servicio de desinfección profesional con productos certificados para eliminar virus, bacterias y hongos. Ideal para oficinas, hogares, centros de salud y espacios públicos.",
-    "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.31 PM.jpeg",
-    "proceso": [
-      "Evaluación del área a desinfectar",
-      "Preparación del espacio",
-      "Aplicación de desinfectantes certificados",
-      "Nebulización y atomización",
-      "Certificación del proceso"
-    ],
-    "beneficios": [
-      "Eliminación de patógenos",
-      "Productos certificados",
-      "Protocolo COVID-19",
-      "Certificado de desinfección",
-      "Ambiente seguro y saludable"
-    ],
-    "precio_desde": 60,
-    "tiempo_servicio": "1-2 horas",
-    "garantia": "1 mes"
-  },
-  "hormigas": {
-    "id": "hormigas",
-    "nombre": "Control de Hormigas",
-    "descripcion_corta": "Eliminación de colonias de hormigas en jardines y interiores.",
-    "descripcion_larga": "Control efectivo de diferentes especies de hormigas mediante cebos especializados y tratamientos que eliminan colonias completas incluyendo la reina.",
-    "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.32 PM (1).jpeg",
-    "proceso": [
-      "Identificación de especies de hormigas",
-      "Localización de colonias y rutas",
-      "Aplicación de cebos especializados",
-      "Tratamiento perimetral",
-      "Seguimiento y refuerzo"
-    ],
-    "beneficios": [
-      "Eliminación de colonias completas",
-      "Cebos seguros para niños y mascotas",
-      "Efecto duradero",
-      "Protección de plantas y jardines",
-      "Prevención de reinfestaciones"
-    ],
-    "precio_desde": 70,
-    "tiempo_servicio": "1-2 horas",
-    "garantia": "3 meses"
-  },
-  "mosquitos": {
-    "id": "mosquitos",
-    "nombre": "Control de Mosquitos",
-    "descripcion_corta": "Eliminación de mosquitos y prevención de criaderos.",
-    "descripcion_larga": "Programa integral de control de mosquitos que incluye eliminación de criaderos, tratamientos adulticidas y larvicidas para proteger su hogar o empresa.",
-    "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.32 PM (2).jpeg",
-    "proceso": [
-      "Inspección de criaderos potenciales",
-      "Eliminación de agua estancada",
-      "Aplicación de larvicidas",
-      "Nebulización adulticida",
-      "Recomendaciones preventivas"
-    ],
-    "beneficios": [
-      "Reducción inmediata de mosquitos",
-      "Prevención de enfermedades",
-      "Tratamiento de criaderos",
-      "Protección familiar",
-      "Asesoramiento continuo"
-    ],
-    "precio_desde": 90,
-    "tiempo_servicio": "2-3 horas",
-    "garantia": "2 meses"
-  }
+    "murcielagos": {
+        "id": "murcielagos",
+        "nombre": "Control de Murciélagos",
+        "descripcion_corta": "Eliminación segura y humana de murciélagos en hogares y empresas.",
+        "descripcion_larga": "Servicio especializado para el control y eliminación de murciélagos utilizando métodos seguros y humanos. Evaluamos la situación, sellamos puntos de entrada y realizamos la exclusión definitiva.",
+        "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.30 PM (1).jpeg",
+        "proceso": [
+            "Inspección detallada del área afectada",
+            "Identificación de puntos de entrada y anidación",
+            "Aplicación de métodos de exclusión humanos",
+            "Sellado de accesos y prevención",
+            "Seguimiento post-tratamiento"
+        ],
+        "beneficios": [
+            "Eliminación definitiva del problema",
+            "Métodos seguros y humanos",
+            "Prevención de reinfestaciones",
+            "Protección de la salud familiar",
+            "Garantía de servicio"
+        ],
+        "precio_desde": 10,
+        "tiempo_servicio": "2-4 horas",
+        "garantia": "6 meses"
+    },
+    "termitas": {
+        "id": "termitas",
+        "nombre": "Control de Termitas Subterráneas",
+        "descripcion_corta": "Eliminación efectiva de termitas subterráneas que dañan estructuras de madera.",
+        "descripcion_larga": "Tratamiento especializado contra termitas subterráneas que atacan las estructuras de madera. Utilizamos sistemas de cebos y tratamientos químicos profesionales para eliminar colonias completas.",
+        "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.30 PM (2).jpeg",
+        "proceso": [
+            "Inspección estructural completa",
+            "Identificación de focos de infestación",
+            "Instalación de sistema de cebos",
+            "Aplicación de tratamientos químicos",
+            "Monitoreo y mantenimiento periódico"
+        ],
+        "beneficios": [
+            "Protección de estructuras de madera",
+            "Eliminación de colonias completas",
+            "Prevención a largo plazo",
+            "Tratamientos eco-amigables",
+            "Monitoreo continuo"
+        ],
+        "precio_desde": 200,
+        "tiempo_servicio": "3-6 horas",
+        "garantia": "12 meses"
+    },
+    "cucarachas": {
+        "id": "cucarachas",
+        "nombre": "Control de Cucarachas",
+        "descripcion_corta": "Eliminación total de cucarachas en hogares, restaurantes y empresas.",
+        "descripcion_larga": "Servicio integral para el control de cucarachas en todo tipo de espacios. Utilizamos geles, insecticidas profesionales y métodos de exclusión para garantizar la eliminación total.",
+        "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.31 PM (1).jpeg",
+        "proceso": [
+            "Evaluación e identificación de especies",
+            "Localización de refugios y rutas",
+            "Aplicación de geles y cebos especializados",
+            "Tratamiento con insecticidas profesionales",
+            "Sellado de grietas y puntos de entrada"
+        ],
+        "beneficios": [
+            "Eliminación rápida y efectiva",
+            "Productos seguros para la familia",
+            "Prevención de enfermedades",
+            "Tratamiento de larga duración",
+            "Asesoramiento preventivo"
+        ],
+        "precio_desde": 80,
+        "tiempo_servicio": "1-2 horas",
+        "garantia": "3 meses"
+    },
+    "serpientes": {
+        "id": "serpientes",
+        "nombre": "Control de Serpientes",
+        "descripcion_corta": "Captura y reubicación segura de serpientes venenosas y no venenosas.",
+        "descripcion_larga": "Servicio especializado para la captura y reubicación de serpientes. Nuestros técnicos certificados manejan tanto especies venenosas como no venenosas con total seguridad.",
+        "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.31 PM (2).jpeg",
+        "proceso": [
+            "Evaluación de riesgo y especies",
+            "Captura segura con equipo especializado",
+            "Identificación de la especie",
+            "Reubicación en hábitat natural",
+            "Recomendaciones preventivas"
+        ],
+        "beneficios": [
+            "Captura segura y humana",
+            "Personal altamente capacitado",
+            "Servicio de emergencia 24/7",
+            "Reubicación responsable",
+            "Asesoramiento preventivo"
+        ],
+        "precio_desde": 120,
+        "tiempo_servicio": "1-3 horas",
+        "garantia": "Servicio único"
+    },
+    "ratones": {
+        "id": "ratones",
+        "nombre": "Control de Ratones",
+        "descripcion_corta": "Eliminación efectiva de ratones y roedores en hogares y empresas.",
+        "descripcion_larga": "Programa integral de control de roedores que incluye trampas, cebos y sellado de accesos. Ideal para hogares, restaurantes, bodegas y empresas.",
+        "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.31 PM (3).jpeg",
+        "proceso": [
+            "Inspección y mapeo de actividad",
+            "Colocación estratégica de trampas",
+            "Aplicación de cebos rodenticidas",
+            "Sellado de puntos de entrada",
+            "Monitoreo y mantenimiento"
+        ],
+        "beneficios": [
+            "Control efectivo y duradero",
+            "Métodos seguros para mascotas",
+            "Prevención de enfermedades",
+            "Protección de alimentos",
+            "Seguimiento profesional"
+        ],
+        "precio_desde": 100,
+        "tiempo_servicio": "2-3 horas",
+        "garantia": "4 meses"
+    },
+    "desinfeccion": {
+        "id": "desinfeccion",
+        "nombre": "Desinfección de Espacios",
+        "descripcion_corta": "Desinfección profesional contra virus, bacterias y hongos.",
+        "descripcion_larga": "Servicio de desinfección profesional con productos certificados para eliminar virus, bacterias y hongos. Ideal para oficinas, hogares, centros de salud y espacios públicos.",
+        "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.31 PM.jpeg",
+        "proceso": [
+            "Evaluación del área a desinfectar",
+            "Preparación del espacio",
+            "Aplicación de desinfectantes certificados",
+            "Nebulización y atomización",
+            "Certificación del proceso"
+        ],
+        "beneficios": [
+            "Eliminación de patógenos",
+            "Productos certificados",
+            "Protocolo COVID-19",
+            "Certificado de desinfección",
+            "Ambiente seguro y saludable"
+        ],
+        "precio_desde": 60,
+        "tiempo_servicio": "1-2 horas",
+        "garantia": "1 mes"
+    },
+    "hormigas": {
+        "id": "hormigas",
+        "nombre": "Control de Hormigas",
+        "descripcion_corta": "Eliminación de colonias de hormigas en jardines y interiores.",
+        "descripcion_larga": "Control efectivo de diferentes especies de hormigas mediante cebos especializados y tratamientos que eliminan colonias completas incluyendo la reina.",
+        "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.32 PM (1).jpeg",
+        "proceso": [
+            "Identificación de especies de hormigas",
+            "Localización de colonias y rutas",
+            "Aplicación de cebos especializados",
+            "Tratamiento perimetral",
+            "Seguimiento y refuerzo"
+        ],
+        "beneficios": [
+            "Eliminación de colonias completas",
+            "Cebos seguros para niños y mascotas",
+            "Efecto duradero",
+            "Protección de plantas y jardines",
+            "Prevención de reinfestaciones"
+        ],
+        "precio_desde": 70,
+        "tiempo_servicio": "1-2 horas",
+        "garantia": "3 meses"
+    },
+    "mosquitos": {
+        "id": "mosquitos",
+        "nombre": "Control de Mosquitos",
+        "descripcion_corta": "Eliminación de mosquitos y prevención de criaderos.",
+        "descripcion_larga": "Programa integral de control de mosquitos que incluye eliminación de criaderos, tratamientos adulticidas y larvicidas para proteger su hogar o empresa.",
+        "imagen": "imaganes/WhatsApp Image 2025-09-11 at 12.45.32 PM (2).jpeg",
+        "proceso": [
+            "Inspección de criaderos potenciales",
+            "Eliminación de agua estancada",
+            "Aplicación de larvicidas",
+            "Nebulización adulticida",
+            "Recomendaciones preventivas"
+        ],
+        "beneficios": [
+            "Reducción inmediata de mosquitos",
+            "Prevención de enfermedades",
+            "Tratamiento de criaderos",
+            "Protección familiar",
+            "Asesoramiento continuo"
+        ],
+        "precio_desde": 90,
+        "tiempo_servicio": "2-3 horas",
+        "garantia": "2 meses"
+    },
+    "prueba": {
+        "id": "prueba",
+        "nombre": "prueba",
+        "descripcion_corta": "prueba",
+        "descripcion_larga": "prueba",
+        "imagen": "imagenes/servicios/prueba_68d15d9dcbc72.png",
+        "proceso": [
+            "1",
+            "1",
+            "asd",
+            "a",
+            "asd"
+        ],
+        "beneficios": [
+            "sdf",
+            "sdf",
+            "sdf",
+            "sdf",
+            "sdf"
+        ],
+        "precio_desde": 1,
+        "tiempo_servicio": "2-4 horas",
+        "garantia": "6 meses"
+    }
 }
